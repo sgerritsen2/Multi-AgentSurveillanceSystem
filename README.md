@@ -51,3 +51,22 @@ Agents interact in a coordinated manner to ensure complete surveillance. Cameras
 1. Start the YOLO detection script:
    ```bash
    python deteccion_camara.py
+Launch the agent system:
+python agents.py
+Open the Unity project in the Unity Editor and ensure all references are properly configured.
+Unity Configuration:
+Interest Points: Assign Unity objects (e.g., spheres) in the scene as "interest points" for the drones.
+Zones: Place invisible Unity objects below key areas (e.g., doors) and tag them appropriately.
+Camera References: Assign cameras to the scripts controlling object detection.
+Inspector Configuration:
+Reference points and tags in DronAgent.cs for patrol areas and drone spawn points.
+Ensure proper connections between Unity scripts and Python server configurations (IPs and ports must match).
+Tagging: Ensure tags for game objects match those expected in the scripts.
+Notes:
+deteccion_camara.py must run continuously. Restart it only if the Unity game restarts.
+Update .cfg and .weights file paths in 4_yolo_opencv_detector.py if files are moved.
+📚 References
+
+GitHub Repository
+Project Video
+Training YOLO Model Guide
