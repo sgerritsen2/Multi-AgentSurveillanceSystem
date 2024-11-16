@@ -4,8 +4,7 @@
 - **Sebastián Gerritsen Ortiz** - A01643364  
 - **José Manuel Martínez Morales** - A01734279  
 - **Rodrigo Castellanos Rodríguez** - A01643147  
-- **Antoine Ganem Núñez** - A01644024  
-- **Nathan Sylvain Nicolas Ramard**
+- **Antoine Ganem Núñez** - A01644024 
 
 **📅 Creation Date:** September 6, 2024  
 
